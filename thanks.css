@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;justify-content: center;
+    background-color: #f1f5f8;
+}
+.thanks{
+    text-align: center;
+    color: #0cebeb;
+    text-align:center;
+    font-size: 3rem;
+    font-weight: 400;
+   
+}
+a{  margin-top: 80px;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    margin-left: -190px;
+    display: inline-block;
+}

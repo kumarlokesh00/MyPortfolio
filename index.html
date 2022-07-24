@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+
+<body>
+  <nav>
+    <div class="center">
+      <div class="logo">
+        <a href=""><span>L0</span>KESH</a>
+      </div>
+      <div class="nav-links" id="NavLinks">
+        <i onclick="closeLinks()"> &#88 </i>
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu" id="menu" onclick="openLinks()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-center container">
+      <article class="intro">
+        <p>I'm</p>
+        <h1><span>LOKESH </span> KUMAR</h1>
+        <h3>Web Developer and <br> competitive coder</h3>
+        <a href="#contact"><button class="btn-primary">Hire Me</button></a>
+        <div class="icons">
+          <div class="social-icons">
+            <div class="social-icon-item">
+              <a href="https://github.com/kumarlokesh00" target="_blank"><img src="./Media/github-logo-6532.svg" alt="github"></a>
+            </div>
+            <div class="social-icon-item">
+              <a href=""  target="_blank"><img src="./Media/linkedinNew.svg" alt="linkedIn"></a>
+            </div>
+            <div class="social-icon-item">
+              <img src="./Media/fbNew.svg" alt="facebook">
+            </div>
+            <div class="social-icon-item">
+              <img src="./Media/instagram-2165.svg" alt="instagram">
+            </div>
+          </div>
+
+
+        </div>
+      </article>
+
+      <article class="img">
+
+      </article>
+
+    </div>
+  </section>
+  <section class="about" id="about"> 
+    <h1>ABOUT <span>ME</span></h1>
+    <div class="about-center">
+      <div class="about-img">
+        <img src="./Media/loki3-removebg.png" alt="">
+      </div>
+      <div class="about-text">
+       <div class="temp">
+        <p>I'm currently pursuing my Bachelors in Information Technology from BIT Mesra. I am proficient in Data Structures & Algorithms and Web Development. I have a good grasp on HTML, CSS, Javascript, Reactjs,Nodejs and mongoDB.I have worked with frameworks like Next.js amd tailwind css  I am currently working on a full stack projct using Reactjs, Node.js and MongoDB.. I am also learning Web Design with Figma. My goal is to bring about positive change in the world through use of technology.</p>
+        <a href="/Media/LokeshResume.pdf" target="_blank" download ><button class="btn-primary"> Download Resume</button></a>
+       </div>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <h1>SERV<span>ICES</span></h1>
+    <div class="wrapper">
+      <div class="service-card">
+        <i class="far fa-gem"></i>
+        <h4>Web Development</h4>
+        <p>
+          I can build incredible websites using latest web technologies like React.js and Next.js which will give you  exceptional digital experience.
+        </p>
+      </div>
+     
+      <div class="service-card">
+        <i class="fas fa-code"></i>
+        <h4>Web Design</h4>
+        <p>I build modern UI design for both web apps and mobile apps using Figma which is great free  tool for building UIs. </p>
+      </div>
+      <div class="service-card">
+        <i class="far fa-gem"></i>
+        <h4>Data Structures and Algorithms</h4>
+        <p>
+          I am quite good at problem solving.I have solved good amount of questions on CodeChef Leetcode and InterviewBit.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section class="skill" id="skills">
+    <h1>SKI<span>LLS</span></h1>
+    <div class="skill-container">
+      <div class="skill-item">
+        <img src="./Media/html (1).svg" alt="html">
+        <div class="item-title">HTML</div>
+      </div class="social-icon-container">
+      <div class="skill-item">
+        <img src="./Media/css.svg" alt="css">
+        <div class="item-title">CSS</div>
+      </div>
+      <div class="skill-item">
+        <img src="./Media/javascript.svg" alt="">
+        <div class="item-title">JAVASCRIPT</div>
+      </div>
+      <div class="skill-item">
+        <img src="./Media/react.svg" alt="">
+        <div class="item-title">REACT</div>
+      </div>
+      <div class="skill-item">
+        <img src="./Media/styled-component.svg" alt="">
+        <div class="item-title">STYLED-COMPOMENTS</div>
+      </div>
+      <div class="skill-item">
+        <img src="./Media/figma.svg" alt="">
+        <div class="item-title">Figma</div>
+      </div>
+      <div class="skill-item">
+        <img src="./Media/nodejs-icon.svg" alt="">
+        <div class="item-title">Node.js</div>
+      </div>
+      <div class="skill-item">
+        <img src="./Media/mongodb-icon.svg" alt="">
+        <div class="item-title">mongoDB</div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- PROJECT section -->
+  <section class="project">
+    
+  </section>
+
+  <!-- contact page-->
+  <section class="contact" id="contact">
+    <h1>CON<span>TACT ME</span></h1>
+    <div class="contact-container">
+      <h2>Get In Touch</h2>
+      <p>I would love to respond you.You can send me your queries amytime.I'm just one click away form you.</p>
+      <div class="contact-box">
+        <div class="contact-left">
+          <h3>Send Your Queries</h3>
+          <form action="https://formsubmit.co/lokeshkotarya7777@gmail.com" method="POST" 
+           enctype="multipart/form-data">
+            <div class="input-row">
+              <div class="input-group">
+                <label for="">Name</label>
+                <input type="text" placeholder="Abc" name="name" />
+              </div>
+              <div class="input-group">
+                <label for="">Phone</label>
+                <input type="text" placeholder="+91 9076764559" />
+              </div>
+            </div>
+            <div class="input-row">
+              <div class="input-group">
+                <label for="">Email</label>
+                <input type="email" placeholder="abc@gamil.com"name="email" />
+                <input type="hidden" name="_next" value="https://condescending-borg-55bee9.netlify.app/thankyou.html">
+                <input type="hidden" name="_captcha" value="false">
+              </div>
+              <div class="input-group">
+                <label for="">Subject</label>
+                <input type="text" placeholder="Message" />
+              </div>
+            </div>
+            <label>Message</label>
+            <textarea rows="5" placeholder="Your Message" name="message"></textarea>
+            <button type="submit" class="btn-primary" >Send</button>
+
+          </form>
+        </div>
+        <div class="contact-right">
+          <h3>Reach Me</h3>
+          <table>
+            <tr>
+              <td>Email</td>
+              <td>Loekeshkotarya7777@gamil.com</td>
+            </tr>
+            <tr>
+              <td>Phone</td>
+              <td>+91 9076561059</td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>Hostel-10 BIT Mesra <br>Ranchi (JH)</td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="social-icons">
+      <div class="icon-item">
+        <a href="https://github.com/kumarlokesh00" target="_blank"><img src="./Media/github-logo-6532.svg"
+            alt="github"></a>
+      </div>
+      <div class="icon-item">
+        <a href="" target="_blank"><img src="./Media/linkedinNew.svg" alt="linkedIn"></a>
+      </div>
+      <div class="icon-item">
+        <a href="" target="_blank"></a><img src="./Media/fbNew.svg" alt="facebook"></a>
+      </div>
+      <div class="icon-item">
+        <a href="" target="_blank"><img src="./Media/instagram-2165.svg" alt="instagram"></a>
+      </div>
+    </div>
+    <p>&copy; 2021 LOKESH KUMAR KOTARYA</p>
+
+
+  </footer>
+
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
