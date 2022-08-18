@@ -715,7 +715,7 @@ tr td{
 @media(max-width:665px){
   section.contact{
     display: block;
-    height: 92vh;
+    /* height: 92vh; */
   }
   .contact-box{
     display: flex;
